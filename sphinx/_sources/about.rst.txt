@@ -1,0 +1,13 @@
+About
+=====
+
+strace is a simple tool to parse log files generated
+by 'strace -f -v -s 1024 -e process -o strace.log COMMAND', and display
+them as a tree of simple commands. Can be useful to understand what
+a complex build system does when compiling your project.
+
+
+Authors
+-------
+
+* Fabrice Le Fessant <fabrice.le_fessant@ocamlpro.com>
